@@ -1,2 +1,4 @@
-# pypwvault
-A password manager, saver, vault in python
+# Python Password Vault
+
+A python password saver capable of encrypting and keeping any account details
+
