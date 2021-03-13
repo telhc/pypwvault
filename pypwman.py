@@ -111,7 +111,6 @@ def read_key_file(key_file):
 
 def encrypt_fnet_key(master_pw, fnet_key, IV):
 	key = SHA256.new(master_pw).digest()	
-	print(IV, len(IV))
 	encryptor = AES.new(key, AES.MODE_CFB, IV)
 	return encryptor.encrypt(fnet_key)
 
