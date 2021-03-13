@@ -2,7 +2,7 @@
 
 A python password saver capable of encrypting and keeping any account details.
 
-![](/images/pypwmanmenu.png)
+![](https://github.com/telhc/telhc/blob/main/images/pypwmanmenu.png)
 
 ## Features
 - Authentication and encryption using a master password
