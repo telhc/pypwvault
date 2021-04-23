@@ -12,7 +12,9 @@ A python password saver capable of encrypting and keeping any account details.
 - Supports importing and exporting to CSV file format (not recommended)
 
 ## How to use it
-Simply download pypwman.py and run it to start vaulting!
+Install the required dependencies  
+bcrypt, pycrypto, getch  
+Download pypwman.py and run it
 
 ## How it works
 On pypwman.py's first execution, it will run a setup and prompt for the creation of a master password.  
